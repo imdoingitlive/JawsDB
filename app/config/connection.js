@@ -11,12 +11,15 @@ var source = {
         port: 3306,
         host: 'localhost',
         user: 'root',
-        password: "Njmitx123",
+        password: "t3st3r",
         database: "starwars"
     },
     jawsDB: {
-
-        // TODO: Add your JawsDB connection info here
+        port: 3306,
+        host: 'l3855uft9zao23e2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        user: 'yxkg9p15obu9ocbe',
+        password: "z5w1xy14sw3gta06",
+        database: "d9o08k9sfc3x81dj"
     }
 }
 
@@ -33,6 +36,6 @@ connection.connect(function(err) {
         return;
     }
     console.log('connected as id ' + connection.threadId);
-});
+}));
 
 module.exports = connection;
