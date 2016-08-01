@@ -25,7 +25,7 @@ var source = {
 
 
 // TODO: connect your jawsDB connection witht he mysql connection.
-var connection = mysql.createConnection(source.localhost);
+var connection = mysql.createConnection(source.jawsDB);
 
 
 
